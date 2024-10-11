@@ -227,7 +227,7 @@ const pricingData = {
       "Jun": 1140,
       "Jul": 1140,
       "Aug": 1445,
-      "Sep": 
+      "Sep": 1445,
     }
   }
 };
