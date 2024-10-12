@@ -21,6 +21,9 @@ const pricingData = {
     "Cayo Coco": { "Oct": 1029, "Nov": 1069, "Dec": 1029, "Jan": 1219, "Feb": 1359, "Mar": 1309, "Apr": 1349, "May": 1499, "Jun": 1400, "Jul": 1500, "Aug": 1550, "Sep": 1450 },
     "Havana": { "Oct": 1269, "Nov": 1359, "Dec": 1379, "Jan": 1525, "Feb": 1505, "Mar": 1525, "Apr": 1545, "May": 1709, "Jun": 1550, "Jul": 1650, "Aug": 1750, "Sep": 1600 },
     "Varadero": { "Oct": 989, "Nov": 1023, "Dec": 1000, "Jan": 1113, "Feb": 1193, "Mar": 1193, "Apr": 1063, "May": 1063, "Jun": 1140, "Jul": 1140, "Aug": 1445, "Sep": 1445 }
+  },
+  "Jamaica": {
+    "Montego Bay": { "Oct": 1539, "Nov": 1614, "Dec": 1614, "Jan": 1756, "Feb": 1836, "Mar": 1796, "Apr": 1584, "May": 1584, "Jun": 1654, "Jul": 1984, "Aug": 2074 }
   }
 };
 
