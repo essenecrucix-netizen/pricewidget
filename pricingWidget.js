@@ -241,7 +241,7 @@ function calculateCost() {
   const children = parseInt(document.getElementById('children').value);
   const childDiscount = 0.4; // Children 5-12 pay 60% of adult price
 
-  if (pricingData[country] && pricingData[country][location] && pricingData[country][location][month]) {
+  if (pricingData[country] && pricingData[country][location] && pricingData[country][location][month] !== undefined) {
     const costPerAdult = pricingData[country][location][month];
     if (costPerAdult) {
       const costPerChild = costPerAdult * (1 - childDiscount);
