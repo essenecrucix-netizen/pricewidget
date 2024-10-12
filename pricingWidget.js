@@ -261,3 +261,25 @@ function calculateCost() {
     document.getElementById('result').innerText = 'Cost information not available for the selected options.';
   }
 }
+
+// Function to update location options based on selected country
+function updateLocationOptions() {
+  const country = document.getElementById('country').value;
+  const locationSelect = document.getElementById('location');
+  locationSelect.innerHTML = '';
+
+  if (pricingData[country]) {
+    Object.keys(pricingData[country]).forEach(location => {
+      const option = document.createElement('option');
+      option.value = location;
+      option.textContent = location;
+      locationSelect.appendChild(option);
+    });
+  }
+}
+
+// Event listener to update location options when country is changed
+document.getElementById('country').addEventListener('change', updateLocationOptions);
+
+// Initialize location options on page load
+updateLocationOptions();
